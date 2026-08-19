@@ -100,22 +100,23 @@ Visit us to explore our latest innovations and discover how our solutions can en
       id: 5,
       type: 'event',
       category: 'Exhibition',
-      date: 'July 16-18, 2026',
-      title: 'Pack Print Plas (Visayas)',
-      shortDescription: 'Visit us at Waterfront Cebu City for the specialized packaging and printing exhibition serving the Visayas region.',
-      fullContent: `Pack Print Plas Visayas is the premier packaging, printing, and plastics exhibition serving the Visayas region. Taking place at the prestigious Waterfront Cebu City from July 16-18, 2026, this event focuses on the unique needs of businesses in the central Philippines.
+      date: 'November 26-28, 2026',
+      title: 'VisMin Printing, Packaging & Plastics Show',
+      cardImage: '/News Landing Page/VisMin PPP 2026.png',
+      shortDescription: 'Visit us at SMX Convention Center Seaside Cebu for the Visayas Printing, Packaging & Plastics Show 2026.',
+      fullContent: `Kelin Graphics System will join the Visayas Printing, Packaging & Plastics Show 2026 on November 26-28, 2026 at SMX Convention Center Seaside Cebu.
 
-Our participation reinforces our commitment to serving customers throughout the Philippines archipelago. We will showcase equipment specifically suited for regional applications including packaging solutions, promotional materials, and commercial printing systems.
+Organized by Global-Link MP and exclusively endorsed by PIAP (Printing Industries Association of the Philippines), this VisMin trade show brings together printing, packaging, and plastics professionals across the Visayas and Mindanao.
 
-The exhibition features focused sessions on regional market opportunities, local supplier networks, and customized solutions for Visayan businesses. This intimate setting allows for more personalized interactions and detailed technical discussions.
+Our participation reinforces our commitment to serving customers throughout the Philippines. We will showcase equipment suited for regional applications including packaging solutions, promotional materials, and commercial printing systems.
 
-This event provides an excellent opportunity to connect with industry professionals in the region and explore partnerships with local businesses.`,
+This event is an excellent opportunity to connect with industry professionals in the region, see live demonstrations, and explore partnerships with local businesses.`,
       images: [
+        '/News Landing Page/VisMin PPP 2026.png',
         '/ApolloMax Plus II PZG3208-KV.webp',
-        '/SMART Eco-Solvent Machine.png',
-        '/Machine V2 (1).png'
+        '/SMART Eco-Solvent Machine.png'
       ],
-      location: 'Waterfront Cebu City'
+      location: 'SMX Convention Center Seaside Cebu'
     },
     {
       id: 6,
@@ -143,22 +144,23 @@ Join us to discover how our advanced printing solutions can help grow your busin
       id: 7,
       type: 'event',
       category: 'Exhibition',
-      date: 'September 4-6, 2026',
-      title: 'PhilConstruct (Mindanao)',
-      shortDescription: 'Explore our construction and building solutions at SMX Davao (SM Lanang) for the Mindanao construction industry.',
-      fullContent: `PhilConstruct Mindanao is the premier construction and building exhibition for the Mindanao region, taking place at SMX Davao (SM Lanang) from September 4-6, 2026. This specialized event caters to the unique construction and infrastructure needs of the southern Philippines.
+      date: 'September 3-5, 2026',
+      title: 'PhilConstruct Mindanao',
+      cardImage: '/News Landing Page/PhilConstruct Mindanao 2026.png',
+      shortDescription: 'Meet us at SMX Convention Center Davao, SM Lanang Premier for PhilConstruct Mindanao.',
+      fullContent: `Join Kelin Graphics System at PhilConstruct Mindanao on September 3-5, 2026 at SMX Convention Center Davao, SM Lanang Premier.
 
-Kelin Graphics System will showcase our range of solutions applicable to the construction industry, including signage systems, architectural graphics, and specialized printing applications for construction and building projects.
+This is the premier construction and building exhibition for the Mindanao region. We will showcase signage systems, architectural graphics, and specialized printing applications for construction and building projects.
 
-The exhibition provides an excellent platform to connect with construction professionals, architects, and contractors throughout Mindanao. Our team will be available to discuss how our printing and graphics solutions can enhance construction and architectural projects.
+The exhibition is an excellent platform to connect with construction professionals, architects, and contractors throughout Mindanao. Our team will be available for technical consultations and live product demonstrations.
 
 This event represents our commitment to serving diverse industries across all regions of the Philippines.`,
       images: [
+        '/News Landing Page/PhilConstruct Mindanao 2026.png',
         '/CMA AL160 Multi-function Channel Letter Bending  Machine (1).png',
-        '/3D Printer (1).webp',
-        '/DTF UV Printer SF604-i3200 2ft. - High Res (1).webp'
+        '/3D Printer (1).webp'
       ],
-      location: 'SMX Davao (SM Lanang)'
+      location: 'SMX Convention Center Davao, SM Lanang Premier'
     },
     {
       id: 8,

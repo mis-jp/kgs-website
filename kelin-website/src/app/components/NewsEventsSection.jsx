@@ -11,22 +11,21 @@ export default function NewsEventsSection() {
     const newsEvents = [
         {
             id: 1,
-            title: "Graphic Expo",
-            date: "July 16-18, 2026",
+            title: "PhilConstruct Mindanao",
+            date: "September 3-5, 2026",
             category: "Exhibition",
-            image: "/News Landing Page/Graphic Expo.webp",
-            coverImage: "/News Landing Page/Graphic Expo - Cover.webp",
-            description: "Join us at SMX Manila (MOA) for the premier graphics and printing exhibition showcasing the latest in digital printing technology.",
-            fullDescription: "Join us at SMX Manila (MOA) for the premier graphics and printing exhibition showcasing the latest in digital printing technology. This three-day event brings together industry leaders, innovative technologies, and cutting-edge solutions in the graphics and printing sector.",
-            location: "SMX Manila (MOA), Pasay City, Philippines",
-            time: "8:30 AM - 5:30 PM daily",
+            image: "/News Landing Page/PhilConstruct Mindanao 2026.png",
+            coverImage: "/News Landing Page/PhilConstruct Mindanao 2026.png",
+            description: "Meet us at SMX Convention Center Davao, SM Lanang Premier for PhilConstruct Mindanao.",
+            fullDescription: "Join Kelin Graphics System at PhilConstruct Mindanao, taking place on September 3-5, 2026 at SMX Convention Center Davao, SM Lanang Premier. This regional construction and building exhibition is a key venue for signage, architectural graphics, and industrial printing solutions serving Mindanao.",
+            location: "SMX Convention Center Davao, SM Lanang Premier",
+            time: "Exhibition hours as posted on-site",
             highlights: [
-                "Latest Digital Printing Technology Showcase",
-                "Live Product Demonstrations",
-                "Industry Expert Seminars",
-                "Networking Opportunities",
-                "Special Exhibition Discounts",
-                "New Product Launches"
+                "Construction and building industry showcase",
+                "Signage and architectural graphics solutions",
+                "Live product demonstrations",
+                "Technical consultations with Kelin specialists",
+                "Networking with contractors and industry partners"
             ],
             contact: {
                 email: "info@kelinph.com",
@@ -37,32 +36,6 @@ export default function NewsEventsSection() {
         },
         {
             id: 2,
-            title: "Print Philippines (PrintCon)",
-            date: "July 2-4, 2026",
-            category: "Exhibition",
-            image: "/News Landing Page/Print Philippines 2026.webp",
-            coverImage: "/News Landing Page/Print Philippines 2026 - Cover.webp",
-            description: "Visit our booth at SMX Manila (MOA) during the Philippines' leading print technology exhibition and conference.",
-            fullDescription: "Visit our booth at SMX Manila (MOA) during the Philippines' leading print technology exhibition and conference. PrintCon Philippines is the country's premier event for printing professionals, featuring the latest innovations in printing technology and solutions.",
-            location: "SMX Manila (MOA), Pasay City, Philippines",
-            time: "10:00 AM - 7:00 PM daily",
-            highlights: [
-                "Print Technology Innovations",
-                "Professional Conference Sessions",
-                "Equipment Demonstrations",
-                "Technical Workshops",
-                "Industry Partnerships",
-                "Exclusive Product Previews"
-            ],
-            contact: {
-                email: "info@kelinph.com",
-                telephone: "(02) 8711-1888",
-                mobile: "0917 678 0608 | 0908 196 0836",
-                website: "www.kelingraphics.com/events/"
-            }
-        },
-        {
-            id: 3,
             title: "Pack Print Plas (Manila)",
             date: "October 8-10, 2026",
             category: "Exhibition",
@@ -79,6 +52,31 @@ export default function NewsEventsSection() {
                 "Plastics Industry Trends",
                 "Supply Chain Solutions",
                 "Business Matching Sessions"
+            ],
+            contact: {
+                email: "info@kelinph.com",
+                telephone: "(02) 8711-1888",
+                mobile: "0917 678 0608 | 0908 196 0836",
+                website: "www.kelingraphics.com/events/"
+            }
+        },
+        {
+            id: 3,
+            title: "VisMin Printing, Packaging & Plastics Show",
+            date: "November 26-28, 2026",
+            category: "Exhibition",
+            image: "/News Landing Page/VisMin PPP 2026.png",
+            coverImage: "/News Landing Page/VisMin PPP 2026.png",
+            description: "Visit us at SMX Convention Center Seaside Cebu for the Visayas Printing, Packaging & Plastics Show 2026.",
+            fullDescription: "Kelin Graphics System will join the Visayas Printing, Packaging & Plastics Show 2026 on November 26-28, 2026 at SMX Convention Center Seaside Cebu. Organized by Global-Link MP and exclusively endorsed by PIAP, this VisMin trade show brings together printing, packaging, and plastics professionals across the Visayas and Mindanao.",
+            location: "SMX Convention Center Seaside Cebu",
+            time: "Exhibition hours as posted on-site",
+            highlights: [
+                "Printing, packaging, and plastics showcase",
+                "Regional VisMin industry networking",
+                "Live equipment demonstrations",
+                "Endorsed by PIAP (Printing Industries Association of the Philippines)",
+                "Organized by Global-Link MP"
             ],
             contact: {
                 email: "info@kelinph.com",
