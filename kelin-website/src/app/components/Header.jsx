@@ -528,13 +528,22 @@ export default function Header() {
             return;
         }
 
+        const compact = (value) => value.replace(/[^a-z0-9]/g, "");
+        const compactQuery = compact(normalizedQuery);
+        const queryTokens = normalizedQuery.split(/[^a-z0-9]+/).filter(Boolean).map(compact);
+
         const scoredMatches = [];
         const seen = new Set();
 
         for (const item of searchData) {
             const title = item.title.toLowerCase();
             const path = item.path.toLowerCase();
-            const matches = title.includes(normalizedQuery) || path.includes(normalizedQuery);
+            const haystack = compact(`${title} ${path}`);
+            const matches =
+                title.includes(normalizedQuery) ||
+                path.includes(normalizedQuery) ||
+                (compactQuery && haystack.includes(compactQuery)) ||
+                (queryTokens.length > 0 && queryTokens.every((token) => haystack.includes(token)));
 
             if (!matches) continue;
 
@@ -548,6 +557,7 @@ export default function Header() {
             if (title.includes(normalizedQuery)) score += 3;
             if (path.startsWith(normalizedQuery)) score += 2;
             if (path.includes(normalizedQuery)) score += 1;
+            if (compactQuery && compact(title).includes(compactQuery)) score += 2;
 
             scoredMatches.push({ item, score });
         }

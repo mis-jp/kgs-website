@@ -30,7 +30,7 @@
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "out/sitemap.js"  ],
   "exclude": [
     "node_modules"
   ]

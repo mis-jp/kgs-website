@@ -99,6 +99,11 @@ DROP TRIGGER IF EXISTS trg_inquiries_updated_at ON inquiries;
 CREATE TRIGGER trg_inquiries_updated_at
 BEFORE UPDATE ON inquiries
 FOR EACH ROW EXECUTE FUNCTION set_updated_at();
+
+ALTER TABLE public.admin_users ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.inquiries ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.inquiry_messages ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.inquiry_export_log ENABLE ROW LEVEL SECURITY;
 `);
 
     const hash = await bcrypt.hash('#Kelin2026', 10);
