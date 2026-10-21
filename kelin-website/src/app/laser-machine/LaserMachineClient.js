@@ -72,19 +72,19 @@ export default function LaserMachine() {
             link: '/k-sign-desktop-laser-b330'
         },
         {
-            id: 'k-sign-fabric-df1916',
-            name: 'K-Sign DF-1916 Laser Fabric Cutting',
-            image: '/laser-machines/K-Sign DF-1916 Laser Fabric Cutting.webp',
+            id: 'k-sign-fabric-ks1916',
+            name: 'K-Sign KS-1916 Laser Fabric Cutting',
+            image: '/laser-machines/K-Sign KS-1916 Laser Fabric Cutting.webp',
             description: 'FABRIC CUTTING SPECIALIST - Advanced laser system specifically designed for fabric cutting with clean edges and precision for textile industry applications.',
             specs: [
                 'Specialization: Fabric cutting',
-                'Model: DF-1916',
+                'Model: KS-1916',
                 'Feature: Clean edge cutting',
                 'Industry: Textile applications'
             ],
             badge: 'Fabric Specialist',
             price: 'Contact us for more details',
-            link: '/k-sign-df-1916-laser-fabric-cutting'
+            link: '/k-sign-ks-1916-laser-fabric-cutting'
         },
         {
             id: 'k-sign-desktop-marking',

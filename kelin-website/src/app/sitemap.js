@@ -460,7 +460,7 @@ export default function sitemap() {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/blogs-k-sign-df-1916-laser-fabric-cutting/`,
+      url: `${baseUrl}/blogs-k-sign-ks-1916-laser-fabric-cutting/`,
       lastModified: lastMod,
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -1168,7 +1168,7 @@ export default function sitemap() {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/k-sign-df-1916-laser-fabric-cutting/`,
+      url: `${baseUrl}/k-sign-ks-1916-laser-fabric-cutting/`,
       lastModified: lastMod,
       changeFrequency: 'monthly',
       priority: 0.7,

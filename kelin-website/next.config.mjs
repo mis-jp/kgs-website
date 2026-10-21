@@ -27,6 +27,21 @@ const nextConfig = {
     'libmime',
     'mailsplit',
   ],
+
+  async redirects() {
+    return [
+      {
+        source: '/k-sign-df-1916-laser-fabric-cutting',
+        destination: '/k-sign-ks-1916-laser-fabric-cutting/',
+        permanent: true,
+      },
+      {
+        source: '/blogs-k-sign-df-1916-laser-fabric-cutting',
+        destination: '/blogs-k-sign-ks-1916-laser-fabric-cutting/',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

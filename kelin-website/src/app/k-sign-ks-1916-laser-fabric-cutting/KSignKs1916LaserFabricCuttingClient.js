@@ -4,11 +4,11 @@ import { buildInquiryPayload, submitInquiry } from '../../lib/submitInquiry';
 import Header from '../components/Header';
 import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
-import './k-sign-df-1916-laser-fabric-cutting.css';
+import './k-sign-ks-1916-laser-fabric-cutting.css';
 
-export default function KSignDf1916LaserFabricCutting() {
+export default function KSignKs1916LaserFabricCutting() {
     const [inquiryModalOpen, setInquiryModalOpen] = useState(false);
-    const [selectedImage, setSelectedImage] = useState('/laser-machines/K-Sign DF-1916 Laser Fabric Cutting.webp');
+    const [selectedImage, setSelectedImage] = useState('/laser-machines/K-Sign KS-1916 Laser Fabric Cutting.webp');
     const scrollRef = useRef(null);
     const isDraggingRef = useRef(false);
     const startXRef = useRef(0);
@@ -17,11 +17,11 @@ export default function KSignDf1916LaserFabricCutting() {
     const lastTimestampRef = useRef(0);
 
     const applicationItems = [
-        { image: '/application/k-sign-df-1916-laser-fabric-cutting/1.jpg', label: 'Carpet' },
-        { image: '/application/k-sign-df-1916-laser-fabric-cutting/2.jpg', label: 'Handbag' },
-        { image: '/application/k-sign-df-1916-laser-fabric-cutting/3.jpg', label: 'T-shirt' },
-        { image: '/application/k-sign-df-1916-laser-fabric-cutting/4.jpg', label: 'Throw Pillow' },
-        { image: '/application/k-sign-df-1916-laser-fabric-cutting/5.jpg', label: 'Swim Wear' },
+        { image: '/application/k-sign-ks-1916-laser-fabric-cutting/1.jpg', label: 'Carpet' },
+        { image: '/application/k-sign-ks-1916-laser-fabric-cutting/2.jpg', label: 'Handbag' },
+        { image: '/application/k-sign-ks-1916-laser-fabric-cutting/3.jpg', label: 'T-shirt' },
+        { image: '/application/k-sign-ks-1916-laser-fabric-cutting/4.jpg', label: 'Throw Pillow' },
+        { image: '/application/k-sign-ks-1916-laser-fabric-cutting/5.jpg', label: 'Swim Wear' },
     ];
 
     const loopedApplicationItems = [...applicationItems, ...applicationItems, ...applicationItems];
@@ -112,14 +112,14 @@ export default function KSignDf1916LaserFabricCutting() {
     const handleTouchEnd = () => { isDraggingRef.current = false; };
 
     const machineDetails = {
-        name: 'K-Sign DF-1916 Laser Fabric Cutting',
-        model: 'LASER MACHINE DF-1916',
+        name: 'K-Sign KS-1916 Laser Fabric Cutting',
+        model: 'LASER MACHINE KS-1916',
         images: [
-            '/laser-machines/K-Sign DF-1916 Laser Fabric Cutting.webp',
-            '/laser-machines/K-Sign DF-1916 Laser Fabric Cutting.webp',
+            '/laser-machines/K-Sign KS-1916 Laser Fabric Cutting.webp',
+            '/laser-machines/K-Sign KS-1916 Laser Fabric Cutting.webp',
         ],
-        shortDescription: 'Smart laser precision for fast flexible cutting - DF-1916 150-180W Laser Machine: a high-precision, high-speed CO2 laser cutter with an 1800×2200mm working area. Featuring intelligent vision and automatic identification, it delivers ultra-precise shape cutting for diverse flexible materials from textiles to leather, ensuring efficiency across industries.',
-        detailedDescription: 'DF-1916 150-180W Laser Machine: a high-precision, high-speed CO2 laser cutter with an 1800×2200mm working area. Featuring intelligent vision and automatic identification, it delivers ultra-precise shape cutting for diverse flexible materials from textiles to leather, ensuring efficiency across industries. With maximum cutting speed up to 6000mm/s, Canon camera brand for precision, water cooling system, and support for multiple image formats including DXF, DWG, JPEG, BMP, and GIF.',
+        shortDescription: 'Smart laser precision for fast flexible cutting - KS-1916 150-180W Laser Machine: a high-precision, high-speed CO2 laser cutter with an 1800×2200mm working area. Featuring intelligent vision and automatic identification, it delivers ultra-precise shape cutting for diverse flexible materials from textiles to leather, ensuring efficiency across industries.',
+        detailedDescription: 'KS-1916 150-180W Laser Machine: a high-precision, high-speed CO2 laser cutter with an 1800×2200mm working area. Featuring intelligent vision and automatic identification, it delivers ultra-precise shape cutting for diverse flexible materials from textiles to leather, ensuring efficiency across industries. With maximum cutting speed up to 6000mm/s, Canon camera brand for precision, water cooling system, and support for multiple image formats including DXF, DWG, JPEG, BMP, and GIF.',
         features: [
             {
                 title: 'Intelligent Vision & Auto-ID',
@@ -143,7 +143,7 @@ export default function KSignDf1916LaserFabricCutting() {
             }
         ],
         specifications: [
-            { label: 'Machine Model', value: 'DF-1916' },
+            { label: 'Machine Model', value: 'KS-1916' },
             { label: 'Working Size', value: '1900*1600' },
             { label: 'Laser Power (Unit: W)', value: '150-180W' },
             { label: 'Gross Power (Unit: W)', value: '±3500' },
@@ -204,9 +204,9 @@ export default function KSignDf1916LaserFabricCutting() {
         formData.set('phone', `${countryCode} ${phone}`);
         formData.delete('countryCode');
         formData.append('_cc', 'info@kelinph.com');
-        formData.append('Page Source', 'K-Sign DF-1916 Laser Fabric Cutting');
+        formData.append('Page Source', 'K-Sign KS-1916 Laser Fabric Cutting');
         formData.append('_replyto', formData.get('email') || '');
-        formData.append('_subject', 'Inquiry: K-Sign DF-1916 Laser Fabric Cutting');
+        formData.append('_subject', 'Inquiry: K-Sign KS-1916 Laser Fabric Cutting');
         formData.append('Page URL', typeof window !== 'undefined' ? window.location.href : '');
         formData.append('Submitted At', new Date().toLocaleString('en-US', { timeZone: 'Asia/Manila' }));
         formData.append('name', `${formData.get('firstName') || ''} ${formData.get('lastName') || ''}`.trim());
@@ -235,21 +235,21 @@ export default function KSignDf1916LaserFabricCutting() {
     return (
         <div>
             <Header />
-            <main className="ksign-df1916-main">
+            <main className="ksign-ks1916-main">
                 {/* Product Hero Section */}
-                <section className="ksign-df1916-hero product-hero">
-                    <div className="ksign-df1916-hero-layout">
-                        <div className="ksign-df1916-hero-left">
-                            <h1 className="ksign-df1916-hero-title product-title">
+                <section className="ksign-ks1916-hero product-hero">
+                    <div className="ksign-ks1916-hero-layout">
+                        <div className="ksign-ks1916-hero-left">
+                            <h1 className="ksign-ks1916-hero-title product-title">
                                 {machineDetails.name}
                             </h1>
-                            <p className="ksign-df1916-hero-subtitle product-subtitle">
+                            <p className="ksign-ks1916-hero-subtitle product-subtitle">
                                 {machineDetails.shortDescription}
                             </p>
-                            <div className="ksign-df1916-button-group">
+                            <div className="ksign-ks1916-button-group">
                                 <button
                                     onClick={openInquiryModal}
-                                    className="ksign-df1916-view-btn large">
+                                    className="ksign-ks1916-view-btn large">
                                     Get Quote
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                         <path d="m9 18 6-6-6-6" />
@@ -257,59 +257,59 @@ export default function KSignDf1916LaserFabricCutting() {
                                 </button>
                                 <Link
                                     href="/contact"
-                                    className="ksign-df1916-btn-secondary large">
+                                    className="ksign-ks1916-btn-secondary large">
                                     Contact Sales
                                 </Link>
                             </div>
-                            <div className="ksign-df1916-hero-stats product-stats">
-                                <div className="ksign-df1916-stat">
-                                    <span className="ksign-df1916-stat-number">6000</span>
-                                    <span className="ksign-df1916-stat-label">mm/s</span>
+                            <div className="ksign-ks1916-hero-stats product-stats">
+                                <div className="ksign-ks1916-stat">
+                                    <span className="ksign-ks1916-stat-number">6000</span>
+                                    <span className="ksign-ks1916-stat-label">mm/s</span>
                                 </div>
-                                <div className="ksign-df1916-stat">
-                                    <span className="ksign-df1916-stat-number">180W</span>
-                                    <span className="ksign-df1916-stat-label">Power</span>
+                                <div className="ksign-ks1916-stat">
+                                    <span className="ksign-ks1916-stat-number">180W</span>
+                                    <span className="ksign-ks1916-stat-label">Power</span>
                                 </div>
-                                <div className="ksign-df1916-stat">
-                                    <span className="ksign-df1916-stat-number">1900×1600</span>
-                                    <span className="ksign-df1916-stat-label">Area</span>
+                                <div className="ksign-ks1916-stat">
+                                    <span className="ksign-ks1916-stat-number">1900×1600</span>
+                                    <span className="ksign-ks1916-stat-label">Area</span>
                                 </div>
                             </div>
                         </div>
-                        <div className="ksign-df1916-hero-right">
+                        <div className="ksign-ks1916-hero-right">
                             <img
                                 src={selectedImage}
                                 alt={machineDetails.name}
-                                className="ksign-df1916-hero-image"
+                                className="ksign-ks1916-hero-image"
                             />
                         </div>
                     </div>
                 </section>
 
                 {/* Detailed Description */}
-                <section className="ksign-df1916-overview-section">
-                    <div className="ksign-df1916-overview-container">
-                        <h2 className="ksign-df1916-section-title">Product Overview</h2>
-                        <p className="ksign-df1916-overview-text">
+                <section className="ksign-ks1916-overview-section">
+                    <div className="ksign-ks1916-overview-container">
+                        <h2 className="ksign-ks1916-section-title">Product Overview</h2>
+                        <p className="ksign-ks1916-overview-text">
                             {machineDetails.detailedDescription}
                         </p>
                     </div>
                 </section>
 
                 {/* Key Features */}
-                <section className="ksign-df1916-features-section">
-                    <div className="ksign-df1916-features-container">
-                        <div className="ksign-df1916-features-header">
-                            <h2 className="ksign-df1916-features-title">Key Features</h2>
-                            <p className="ksign-df1916-features-subtitle">
+                <section className="ksign-ks1916-features-section">
+                    <div className="ksign-ks1916-features-container">
+                        <div className="ksign-ks1916-features-header">
+                            <h2 className="ksign-ks1916-features-title">Key Features</h2>
+                            <p className="ksign-ks1916-features-subtitle">
                                 Smart laser precision for fast flexible cutting
                             </p>
                         </div>
 
-                        <div className="ksign-df1916-features-grid">
+                        <div className="ksign-ks1916-features-grid">
                             {machineDetails.features.map((feature, index) => (
-                                <div key={index} className="ksign-df1916-feature-card">
-                                    <div className="ksign-df1916-feature-icon">
+                                <div key={index} className="ksign-ks1916-feature-card">
+                                    <div className="ksign-ks1916-feature-icon">
                                         {index === 0 && (
                                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                                 {/* Intelligent vision/auto-ID: eye with scan lines */}
@@ -347,8 +347,8 @@ export default function KSignDf1916LaserFabricCutting() {
                                             </svg>
                                         )}
                                     </div>
-                                    <h3 className="ksign-df1916-feature-title">{feature.title}</h3>
-                                    <p className="ksign-df1916-feature-text">{feature.description}</p>
+                                    <h3 className="ksign-ks1916-feature-title">{feature.title}</h3>
+                                    <p className="ksign-ks1916-feature-text">{feature.description}</p>
                                 </div>
                             ))}
                         </div>
@@ -356,24 +356,24 @@ export default function KSignDf1916LaserFabricCutting() {
                 </section>
 
                 {/* Technical Specifications */}
-                <section className="ksign-df1916-specs-section">
-                    <div className="ksign-df1916-specs-container">
-                        <h2 className="ksign-df1916-section-title">Technical Specifications</h2>
-                        <p className="ksign-df1916-section-subtitle">
-                            Complete technical details for K-Sign DF-1916 Laser Fabric Cutting Machine
+                <section className="ksign-ks1916-specs-section">
+                    <div className="ksign-ks1916-specs-container">
+                        <h2 className="ksign-ks1916-section-title">Technical Specifications</h2>
+                        <p className="ksign-ks1916-section-subtitle">
+                            Complete technical details for K-Sign KS-1916 Laser Fabric Cutting Machine
                         </p>
-                        <div className="ksign-df1916-specs-grid">
-                            <div className="ksign-df1916-spec-card">
-                                <h3 className="ksign-df1916-spec-card-title">
+                        <div className="ksign-ks1916-specs-grid">
+                            <div className="ksign-ks1916-spec-card">
+                                <h3 className="ksign-ks1916-spec-card-title">
                                     Machine Specifications
                                 </h3>
-                                <div className="ksign-df1916-spec-card-body">
+                                <div className="ksign-ks1916-spec-card-body">
                                     {machineDetails.specifications.map((spec, index) => (
-                                        <div key={index} className="ksign-df1916-spec-item">
-                                            <div className="ksign-df1916-spec-label">
+                                        <div key={index} className="ksign-ks1916-spec-item">
+                                            <div className="ksign-ks1916-spec-label">
                                                 {spec.label}
                                             </div>
-                                            <div className="ksign-df1916-spec-value">{spec.value}</div>
+                                            <div className="ksign-ks1916-spec-value">{spec.value}</div>
                                         </div>
                                     ))}
                                 </div>
@@ -383,15 +383,15 @@ export default function KSignDf1916LaserFabricCutting() {
                 </section>
 
                 {/* Applications */}
-                <section className="ksign-df1916-applications-section">
-                    <div className="ksign-df1916-applications-container">
-                        <h2 className="ksign-df1916-section-title">Application Materials</h2>
-                        <p className="ksign-df1916-applications-subtitle">
+                <section className="ksign-ks1916-applications-section">
+                    <div className="ksign-ks1916-applications-container">
+                        <h2 className="ksign-ks1916-section-title">Application Materials</h2>
+                        <p className="ksign-ks1916-applications-subtitle">
                             Professional laser cutting for textiles, leather, and flexible materials
                         </p>
                         <div
                             ref={scrollRef}
-                            className="ksign-df1916-applications-scroll"
+                            className="ksign-ks1916-applications-scroll"
                             onMouseDown={handleMouseDown}
                             onMouseMove={handleMouseMove}
                             onMouseUp={handleMouseUp}
@@ -401,9 +401,9 @@ export default function KSignDf1916LaserFabricCutting() {
                             onTouchEnd={handleTouchEnd}
                             onScroll={normalizeInfiniteScroll}
                         >
-                            <div className="ksign-df1916-applications-image-grid">
+                            <div className="ksign-ks1916-applications-image-grid">
                                 {loopedApplicationItems.map((item, index) => (
-                                    <div key={`${item.label}-${index}`} className="ksign-df1916-application-image-item">
+                                    <div key={`${item.label}-${index}`} className="ksign-ks1916-application-image-item">
                                         <img src={item.image} alt={item.label} />
                                         <p>{item.label}</p>
                                     </div>
@@ -414,19 +414,19 @@ export default function KSignDf1916LaserFabricCutting() {
                 </section>
 
                 {/* Advantages */}
-                <section className="ksign-df1916-advantages-section">
-                    <div className="ksign-df1916-advantages-container">
-                        <h2 className="ksign-df1916-section-title">Why Choose K-Sign DF-1916 Laser Fabric Cutting?</h2>
-                        <div className="ksign-df1916-advantages-grid">
+                <section className="ksign-ks1916-advantages-section">
+                    <div className="ksign-ks1916-advantages-container">
+                        <h2 className="ksign-ks1916-section-title">Why Choose K-Sign KS-1916 Laser Fabric Cutting?</h2>
+                        <div className="ksign-ks1916-advantages-grid">
                             {machineDetails.advantages.map((advantage, index) => (
-                                <div key={index} className="ksign-df1916-advantage-item">
-                                    <div className="ksign-df1916-advantage-icon">
+                                <div key={index} className="ksign-ks1916-advantage-item">
+                                    <div className="ksign-ks1916-advantage-icon">
                                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                             <circle cx="12" cy="12" r="10" />
                                             <path d="M9 12l2 2 4-4" />
                                         </svg>
                                     </div>
-                                    <p className="ksign-df1916-advantage-text">{advantage}</p>
+                                    <p className="ksign-ks1916-advantage-text">{advantage}</p>
                                 </div>
                             ))}
                         </div>
@@ -436,45 +436,45 @@ export default function KSignDf1916LaserFabricCutting() {
 
             {/* Inquiry Modal */}
             {inquiryModalOpen && (
-                <div className="ksign-df1916-modal-overlay" onClick={closeInquiryModal}>
-                    <div className="ksign-df1916-inquiry-modal" onClick={(e) => e.stopPropagation()}>
-                        <div className="ksign-df1916-inquiry-header">
+                <div className="ksign-ks1916-modal-overlay" onClick={closeInquiryModal}>
+                    <div className="ksign-ks1916-inquiry-modal" onClick={(e) => e.stopPropagation()}>
+                        <div className="ksign-ks1916-inquiry-header">
                             <h2>Request Quote - {machineDetails.model}</h2>
-                            <button onClick={closeInquiryModal} className="ksign-df1916-close-btn">×</button>
+                            <button onClick={closeInquiryModal} className="ksign-ks1916-close-btn">×</button>
                         </div>
 
-                        <form onSubmit={handleSubmitInquiry} className="ksign-df1916-inquiry-form">
-                            <div className="ksign-df1916-form-row">
-                                <div className="ksign-df1916-form-group">
+                        <form onSubmit={handleSubmitInquiry} className="ksign-ks1916-inquiry-form">
+                            <div className="ksign-ks1916-form-row">
+                                <div className="ksign-ks1916-form-group">
                                     <label htmlFor="firstName">First Name *</label>
                                     <input type="text" id="firstName" name="firstName" required />
                                 </div>
-                                <div className="ksign-df1916-form-group">
+                                <div className="ksign-ks1916-form-group">
                                     <label htmlFor="lastName">Last Name *</label>
                                     <input type="text" id="lastName" name="lastName" required />
                                 </div>
                             </div>
 
-                            <div className="k-sign-df1916-form-row">
-                                <div className="ksign-df1916-form-group">
+                            <div className="k-sign-ks1916-form-row">
+                                <div className="ksign-ks1916-form-group">
                                     <label htmlFor="email">Email Address *</label>
                                     <input type="email" id="email" name="email" required />
                                 </div>
-                                <div className="ksign-df1916-form-group">
+                                <div className="ksign-ks1916-form-group">
                                     <label htmlFor="company">Company Name *</label>
                                     <input type="text" id="company" name="company" required />
                                 </div>
                             </div>
 
-                            <div className="k-sign-df1916-form-row">
-                                <div className="ksign-df1916-form-group">
+                            <div className="k-sign-ks1916-form-row">
+                                <div className="ksign-ks1916-form-group">
                                     <label htmlFor="address">Complete Address *</label>
                                     <input type="text" id="address" name="address" placeholder="Street, City, State/Province, Country" required />
                                 </div>
-                                <div className="ksign-df1916-form-group">
+                                <div className="ksign-ks1916-form-group">
                                     <label htmlFor="phone">Phone Number *</label>
-                                    <div className="ksign-df1916-phone-input">
-                                        <select className="ksign-df1916-country-select" name="countryCode" defaultValue="+63" required>
+                                    <div className="ksign-ks1916-phone-input">
+                                        <select className="ksign-ks1916-country-select" name="countryCode" defaultValue="+63" required>
                                             <option value="+63">🇵🇭 +63</option>
                                             <option value="+1">🇺🇸 +1</option>
                                             <option value="+1">🇨🇦 +1</option>
@@ -613,7 +613,7 @@ export default function KSignDf1916LaserFabricCutting() {
                                 </div>
                             </div>
 
-                            <div className="ksign-df1916-form-group">
+                            <div className="ksign-ks1916-form-group">
                                 <label htmlFor="message">Message</label>
                                 <textarea
                                     id="message"
@@ -623,11 +623,11 @@ export default function KSignDf1916LaserFabricCutting() {
                                 ></textarea>
                             </div>
 
-                            <div className="ksign-df1916-form-actions">
-                                <button type="submit" className="ksign-df1916-btn-primary" disabled={inquiryStatus === 'loading'}>
+                            <div className="ksign-ks1916-form-actions">
+                                <button type="submit" className="ksign-ks1916-btn-primary" disabled={inquiryStatus === 'loading'}>
                                     {inquiryStatus === 'loading' ? 'Sending...' : 'Send Inquiry'}
                                 </button>
-                                <button type="button" onClick={closeInquiryModal} className="ksign-df1916-btn-secondary" disabled={inquiryStatus === 'loading'}>Cancel</button>
+                                <button type="button" onClick={closeInquiryModal} className="ksign-ks1916-btn-secondary" disabled={inquiryStatus === 'loading'}>Cancel</button>
                             </div>
                             {inquiryStatus === 'success' && (
                                 <div style={{ color: 'green', marginTop: 10 }}>Thank you for your inquiry! We will contact you soon.</div>

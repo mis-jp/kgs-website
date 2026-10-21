@@ -10,7 +10,7 @@ export default function BlogsPage() {
         "Economical Fiber Laser": "/yueming-fiber-laser-cma-1325c-g-g",
         "CMA 1325": "/yueming-fiber-laser-cma-1325c-g-g",
         "CMA HQ": "/yueming-fiber-laser-hl1530c-g-e",
-        "Yueming Fabric Laser": "/k-sign-df-1916-laser-fabric-cutting",
+        "Yueming Fabric Laser": "/k-sign-ks-1916-laser-fabric-cutting",
         "CMA 1390": "/hanniu-k1390-co2-laser-150w-ccd",
         "3D Printer": "/3d-printer",
         "Bending Machine": "/k-sign-desktop-laser-b330",
@@ -24,7 +24,7 @@ export default function BlogsPage() {
         { id: 1, title: "Economical Fiber Laser", category: "Laser Machines", excerpt: "High-precision fiber laser cutting solution for efficient metal processing and industrial applications.", date: "March 2026", image: '/laser-machines/Yueming Fiber Laser  CMA-1325C-G-G 1000w.webp' },
         { id: 2, title: "CMA 1325", category: "Laser Machines", excerpt: "Large-format laser cutting system designed for high-speed accuracy on various non-metal materials.", date: "March 2026", image: '/laser-machines/Yueming Fiber Laser  CMA-1325C-G-G 1000w.webp' },
         { id: 3, title: "CMA HQ", category: "Laser Machines", excerpt: "Premium high-quality laser system offering superior edge finish and cutting stability.", date: "March 2026", image: '/laser-machines/Yueming Fiber Laser HL1530C-G-E 1500w IPG.webp' },
-        { id: 4, title: "Yueming Fabric Laser", category: "Laser Machines", excerpt: "Specialized laser solution for the textile industry, perfect for intricate fabric cutting and engraving.", date: "March 2026", image: '/laser-machines/K-Sign DF-1916 Laser Fabric Cutting.webp' },
+        { id: 4, title: "Yueming Fabric Laser", category: "Laser Machines", excerpt: "Specialized laser solution for the textile industry, perfect for intricate fabric cutting and engraving.", date: "March 2026", image: '/laser-machines/K-Sign KS-1916 Laser Fabric Cutting.webp' },
         { id: 5, title: "CMA 1390", category: "Laser Machines", excerpt: "The versatile industry standard for medium-format laser engraving and cutting tasks.", date: "March 2026", image: '/laser-machines/Hanniu K1390 CO2 Laser Cutting Machine 150w with CCD.webp' },
 
         // Industrial Tools Category

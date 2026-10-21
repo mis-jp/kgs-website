@@ -1,4 +1,4 @@
-/* K-Sign DF-1916 Laser Fabric Cutting Unique Styles */
+/* K-Sign KS-1916 Laser Fabric Cutting Unique Styles */
 
 /* Font Face Declaration */
 @font-face {
@@ -9,53 +9,53 @@
     font-display: swap;
 }
 
-.ksign-df1916-main {
+.ksign-ks1916-main {
     min-height: 100vh;
     margin-top: 60px;
 }
 
 /* Breadcrumb Section */
-.ksign-df1916-breadcrumb-section {
+.ksign-ks1916-breadcrumb-section {
     background: #f8fafc;
     padding: 16px 0;
     border-bottom: 1px solid #e2e8f0;
 }
 
-.ksign-df1916-breadcrumb-container {
+.ksign-ks1916-breadcrumb-container {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 40px;
 }
 
-.ksign-df1916-breadcrumb-nav {
+.ksign-ks1916-breadcrumb-nav {
     display: flex;
     align-items: center;
     gap: 8px;
     font-size: 0.9rem;
 }
 
-.ksign-df1916-breadcrumb-link {
+.ksign-ks1916-breadcrumb-link {
     color: #64748b;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.ksign-df1916-breadcrumb-link:hover {
+.ksign-ks1916-breadcrumb-link:hover {
     color: #334155;
 }
 
-.ksign-df1916-breadcrumb-separator {
+.ksign-ks1916-breadcrumb-separator {
     color: #94a3b8;
     font-weight: 300;
 }
 
-.ksign-df1916-breadcrumb-current {
+.ksign-ks1916-breadcrumb-current {
     color: #1e293b;
     font-weight: 600;
 }
 
 /* Product Hero Section */
-.ksign-df1916-hero {
+.ksign-ks1916-hero {
     padding: 100px 40px 80px;
     margin: 0 auto;
     text-align: center;
@@ -66,7 +66,7 @@
     overflow: hidden;
 }
 
-.ksign-df1916-hero::before {
+.ksign-ks1916-hero::before {
     content: '';
     position: absolute;
     top: -50%;
@@ -90,12 +90,12 @@
     }
 }
 
-.ksign-df1916-hero.product-hero {
+.ksign-ks1916-hero.product-hero {
     text-align: left;
     padding: 80px 40px;
 }
 
-.ksign-df1916-hero-layout {
+.ksign-ks1916-hero-layout {
     max-width: 1400px;
     margin: 0 auto;
     gap: 80px;
@@ -107,11 +107,11 @@
     z-index: 2;
 }
 
-.ksign-df1916-hero-left {
+.ksign-ks1916-hero-left {
     text-align: left;
 }
 
-.ksign-df1916-hero-title {
+.ksign-ks1916-hero-title {
     font-size: 3.5rem;
     font-weight: 800;
     font-family: 'Bison-Bold', Arial, sans-serif;
@@ -124,12 +124,12 @@
     letter-spacing: -0.02em;
 }
 
-.ksign-df1916-hero-title.product-title {
+.ksign-ks1916-hero-title.product-title {
     font-size: 2.8rem;
     margin-bottom: 20px;
 }
 
-.ksign-df1916-hero-subtitle {
+.ksign-ks1916-hero-subtitle {
     font-size: 1.3rem;
     color: #64748b;
     line-height: 1.6;
@@ -137,20 +137,20 @@
     max-width: 600px;
 }
 
-.ksign-df1916-hero-subtitle.product-subtitle {
+.ksign-ks1916-hero-subtitle.product-subtitle {
     font-size: 1.2rem;
     margin-bottom: 30px;
     max-width: 500px;
 }
 
-.ksign-df1916-button-group {
+.ksign-ks1916-button-group {
     display: flex;
     gap: 20px;
     margin-bottom: 30px;
     flex-wrap: wrap;
 }
 
-.ksign-df1916-view-btn {
+.ksign-ks1916-view-btn {
     background: linear-gradient(135deg, #334155, #475569);
     color: white;
     border: none;
@@ -166,27 +166,27 @@
     gap: 8px;
 }
 
-.ksign-df1916-view-btn.large {
+.ksign-ks1916-view-btn.large {
     padding: 15px 30px;
     font-size: 1rem;
 }
 
-.ksign-df1916-view-btn:hover {
+.ksign-ks1916-view-btn:hover {
     background: linear-gradient(135deg, #1e293b, #334155);
     transform: translateX(4px);
 }
 
-.ksign-df1916-view-btn svg {
+.ksign-ks1916-view-btn svg {
     width: 16px;
     height: 16px;
     transition: transform 0.3s ease;
 }
 
-.ksign-df1916-view-btn:hover svg {
+.ksign-ks1916-view-btn:hover svg {
     transform: translateX(4px);
 }
 
-.ksign-df1916-btn-secondary {
+.ksign-ks1916-btn-secondary {
     background: #f7fafc;
     color: #4a5568;
     border: 2px solid #e2e8f0;
@@ -201,7 +201,7 @@
     gap: 8px;
 }
 
-.ksign-df1916-btn-secondary.large {
+.ksign-ks1916-btn-secondary.large {
     padding: 15px 30px;
     font-size: 1rem;
     text-decoration: none;
@@ -209,12 +209,12 @@
     align-items: center;
 }
 
-.ksign-df1916-btn-secondary:hover {
+.ksign-ks1916-btn-secondary:hover {
     background: #edf2f7;
     border-color: #cbd5e0;
 }
 
-.ksign-df1916-hero-stats {
+.ksign-ks1916-hero-stats {
     display: flex;
     justify-content: flex-start;
     gap: 40px;
@@ -222,11 +222,11 @@
     flex-wrap: wrap;
 }
 
-.ksign-df1916-hero-stats.product-stats {
+.ksign-ks1916-hero-stats.product-stats {
     justify-content: flex-start;
 }
 
-.ksign-df1916-stat {
+.ksign-ks1916-stat {
     text-align: center;
     padding: 20px 30px;
     background: rgba(255, 255, 255, 0.8);
@@ -235,7 +235,7 @@
     border: 1px solid rgba(71, 85, 105, 0.1);
 }
 
-.ksign-df1916-stat-number {
+.ksign-ks1916-stat-number {
     font-size: 2rem;
     font-weight: 800;
     color: #334155;
@@ -243,7 +243,7 @@
     line-height: 1.2;
 }
 
-.ksign-df1916-stat-label {
+.ksign-ks1916-stat-label {
     font-size: 0.9rem;
     color: #64748b;
     font-weight: 500;
@@ -252,11 +252,11 @@
     margin-top: 4px;
 }
 
-.ksign-df1916-hero-right {
+.ksign-ks1916-hero-right {
     text-align: center;
 }
 
-.ksign-df1916-hero-image {
+.ksign-ks1916-hero-image {
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -264,18 +264,18 @@
 }
 
 /* Overview Section */
-.ksign-df1916-overview-section {
+.ksign-ks1916-overview-section {
     padding: 80px 40px;
     background: white;
 }
 
-.ksign-df1916-overview-container {
+.ksign-ks1916-overview-container {
     max-width: 1400px;
     margin: 0 auto;
     text-align: center;
 }
 
-.ksign-df1916-section-title {
+.ksign-ks1916-section-title {
     font-size: 2.8rem;
     font-weight: 800;
     font-family: 'Bison-Bold', Arial, sans-serif;
@@ -288,12 +288,12 @@
     text-align: center;
 }
 
-.ksign-df1916-country-select {
+.ksign-ks1916-country-select {
     border-radius: 10px;
     border-color: #94a3b8;
 }
 
-.ksign-df1916-section-subtitle {
+.ksign-ks1916-section-subtitle {
     font-size: 1.2rem;
     color: #64748b;
     text-align: center;
@@ -303,7 +303,7 @@
     margin-right: auto;
 }
 
-.ksign-df1916-overview-text {
+.ksign-ks1916-overview-text {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #475569;
@@ -311,23 +311,23 @@
 }
 
 /* Features Section */
-.ksign-df1916-features-section {
+.ksign-ks1916-features-section {
     background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
     color: white;
     padding: 80px 40px;
 }
 
-.ksign-df1916-features-container {
+.ksign-ks1916-features-container {
     max-width: 1400px;
     margin: 0 auto;
 }
 
-.ksign-df1916-features-header {
+.ksign-ks1916-features-header {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.ksign-df1916-features-title {
+.ksign-ks1916-features-title {
     font-family: 'Bison-Bold', sans-serif;
     font-size: 2.5rem;
     font-weight: 800;
@@ -338,19 +338,19 @@
     -webkit-text-fill-color: transparent;
 }
 
-.ksign-df1916-features-subtitle {
+.ksign-ks1916-features-subtitle {
     color: rgba(255, 255, 255, 0.8);
     font-size: 1.1rem;
     margin: 0;
 }
 
-.ksign-df1916-features-grid {
+.ksign-ks1916-features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
 }
 
-.ksign-df1916-feature-card {
+.ksign-ks1916-feature-card {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;
@@ -360,12 +360,12 @@
     backdrop-filter: blur(10px);
 }
 
-.ksign-df1916-feature-card:hover {
+.ksign-ks1916-feature-card:hover {
     transform: translateY(-8px);
     background: rgba(255, 255, 255, 0.08);
 }
 
-.ksign-df1916-feature-icon {
+.ksign-ks1916-feature-icon {
     width: 60px;
     height: 60px;
     margin: 0 auto 24px auto;
@@ -379,36 +379,36 @@
     color: white;
 }
 
-.ksign-df1916-feature-icon svg {
+.ksign-ks1916-feature-icon svg {
     width: 28px;
     height: 28px;
     color: white;
 }
 
-.ksign-df1916-feature-title {
+.ksign-ks1916-feature-title {
     font-size: 1.4rem;
     font-weight: 700;
     margin: 0 0 16px 0;
 }
 
-.ksign-df1916-feature-text {
+.ksign-ks1916-feature-text {
     color: rgba(255, 255, 255, 0.8);
     line-height: 1.6;
     margin: 0;
 }
 
 /* Specifications Section */
-.ksign-df1916-specs-section {
+.ksign-ks1916-specs-section {
     padding: 80px 40px;
     background: #f8fafc;
 }
 
-.ksign-df1916-specs-container {
+.ksign-ks1916-specs-container {
     max-width: 1400px;
     margin: 0 auto;
 }
 
-.ksign-df1916-specs-grid {
+.ksign-ks1916-specs-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
@@ -418,7 +418,7 @@
     margin-right: auto;
 }
 
-.ksign-df1916-spec-card {
+.ksign-ks1916-spec-card {
     background: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 8px;
@@ -426,7 +426,7 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.ksign-df1916-spec-card-title {
+.ksign-ks1916-spec-card-title {
     font-size: 1.5rem;
     font-weight: 600;
     color: #1e293b;
@@ -434,12 +434,12 @@
     text-align: center;
 }
 
-.ksign-df1916-spec-card-body {
+.ksign-ks1916-spec-card-body {
     display: grid;
     gap: 1px;
 }
 
-.ksign-df1916-spec-item {
+.ksign-ks1916-spec-item {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     gap: 16px;
@@ -449,15 +449,15 @@
     border-bottom: 1px solid #e2e8f0;
 }
 
-.ksign-df1916-spec-item:nth-child(even) {
+.ksign-ks1916-spec-item:nth-child(even) {
     background: #ffffff;
 }
 
-.ksign-df1916-spec-item:last-child {
+.ksign-ks1916-spec-item:last-child {
     border-bottom: none;
 }
 
-.ksign-df1916-spec-label {
+.ksign-ks1916-spec-label {
     font-weight: 600;
     color: #475569;
     font-size: 0.9rem;
@@ -465,7 +465,7 @@
     align-items: center;
 }
 
-.ksign-df1916-spec-value {
+.ksign-ks1916-spec-value {
     color: #1e293b;
     font-weight: 500;
     font-size: 0.9rem;
@@ -476,25 +476,25 @@
 }
 
 /* Applications Section */
-.ksign-df1916-applications-section {
+.ksign-ks1916-applications-section {
     padding: 80px 40px;
     background: white;
 }
 
-.ksign-df1916-applications-container {
+.ksign-ks1916-applications-container {
     max-width: 1400px;
     margin: 0 auto;
     text-align: center;
 }
 
-.ksign-df1916-applications-subtitle {
+.ksign-ks1916-applications-subtitle {
     font-size: 1.1rem;
     color: #64748b;
     margin-bottom: 40px;
     line-height: 1.6;
 }
 
-.ksign-df1916-applications-scroll {
+.ksign-ks1916-applications-scroll {
     overflow-x: auto;
     overflow-y: hidden;
     margin-top: 40px;
@@ -508,22 +508,22 @@
     /* IE and Edge */
 }
 
-.ksign-df1916-applications-scroll::-webkit-scrollbar {
+.ksign-ks1916-applications-scroll::-webkit-scrollbar {
     display: none;
     /* Chrome, Safari, Opera */
 }
 
-.ksign-df1916-applications-scroll:active {
+.ksign-ks1916-applications-scroll:active {
     cursor: grabbing;
 }
 
-.ksign-df1916-applications-image-grid {
+.ksign-ks1916-applications-image-grid {
     display: flex;
     gap: 24px;
     width: max-content;
 }
 
-.ksign-df1916-application-image-item {
+.ksign-ks1916-application-image-item {
     flex: 0 0 280px;
     background: white;
     border: 1px solid #e2e8f0;
@@ -533,20 +533,20 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.ksign-df1916-application-image-item:hover {
+.ksign-ks1916-application-image-item:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     border-color: #3b82f6;
 }
 
-.ksign-df1916-application-image-item img {
+.ksign-ks1916-application-image-item img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     display: block;
 }
 
-.ksign-df1916-application-image-item p {
+.ksign-ks1916-application-image-item p {
     padding: 16px;
     margin: 0;
     font-size: 0.95rem;
@@ -556,25 +556,25 @@
 }
 
 /* Advantages Section */
-.ksign-df1916-advantages-section {
+.ksign-ks1916-advantages-section {
     padding: 80px 40px;
     background: #f8fafc;
 }
 
-.ksign-df1916-advantages-container {
+.ksign-ks1916-advantages-container {
     max-width: 1400px;
     margin: 0 auto;
     text-align: center;
 }
 
-.ksign-df1916-advantages-grid {
+.ksign-ks1916-advantages-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
     margin-top: 60px;
 }
 
-.ksign-df1916-advantage-item {
+.ksign-ks1916-advantage-item {
     display: flex;
     align-items: flex-start;
     gap: 16px;
@@ -586,12 +586,12 @@
     text-align: left;
 }
 
-.ksign-df1916-advantage-item:hover {
+.ksign-ks1916-advantage-item:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
-.ksign-df1916-advantage-icon {
+.ksign-ks1916-advantage-icon {
     width: 24px;
     height: 24px;
     color: #10b981;
@@ -599,14 +599,14 @@
     margin-top: 2px;
 }
 
-.ksign-df1916-advantage-text {
+.ksign-ks1916-advantage-text {
     color: #475569;
     line-height: 1.6;
     margin: 0;
 }
 
 /* Modal Styles */
-.ksign-df1916-modal-overlay {
+.ksign-ks1916-modal-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -620,7 +620,7 @@
     padding: 20px;
 }
 
-.ksign-df1916-inquiry-modal {
+.ksign-ks1916-inquiry-modal {
     background: white;
     border-radius: 20px;
     max-width: 600px;
@@ -630,7 +630,7 @@
     position: relative;
 }
 
-.ksign-df1916-inquiry-header {
+.ksign-ks1916-inquiry-header {
     padding: 32px 32px 0;
     display: flex;
     justify-content: space-between;
@@ -640,14 +640,14 @@
     padding-bottom: 24px;
 }
 
-.ksign-df1916-inquiry-header h2 {
+.ksign-ks1916-inquiry-header h2 {
     font-size: 1.5rem;
     font-weight: 600;
     color: #1e293b;
     margin: 0;
 }
 
-.ksign-df1916-close-btn {
+.ksign-ks1916-close-btn {
     background: none;
     border: none;
     font-size: 1.8rem;
@@ -658,27 +658,27 @@
     transition: all 0.2s ease;
 }
 
-.ksign-df1916-close-btn:hover {
+.ksign-ks1916-close-btn:hover {
     background: #f1f5f9;
     color: #334155;
 }
 
-.ksign-df1916-inquiry-form {
+.ksign-ks1916-inquiry-form {
     padding: 0 32px 32px;
 }
 
-.ksign-df1916-form-row {
+.ksign-ks1916-form-row {
     display: flex;
     gap: 20px;
     margin-bottom: 24px;
 }
 
-.ksign-df1916-form-group {
+.ksign-ks1916-form-group {
     flex: 1;
     margin-bottom: 24px;
 }
 
-.ksign-df1916-form-group label {
+.ksign-ks1916-form-group label {
     display: block;
     font-weight: 500;
     color: #334155;
@@ -686,8 +686,8 @@
     font-size: 0.95rem;
 }
 
-.ksign-df1916-form-group input,
-.ksign-df1916-form-group textarea {
+.ksign-ks1916-form-group input,
+.ksign-ks1916-form-group textarea {
     width: 100%;
     padding: 12px 16px;
     border: 2px solid #e2e8f0;
@@ -697,25 +697,25 @@
     background: white;
 }
 
-.ksign-df1916-form-group input:focus,
-.ksign-df1916-form-group textarea:focus {
+.ksign-ks1916-form-group input:focus,
+.ksign-ks1916-form-group textarea:focus {
     outline: none;
     border-color: #334155;
 }
 
-.ksign-df1916-phone-input {
+.ksign-ks1916-phone-input {
     display: flex;
     gap: 8px;
 }
 
-.ksign-df1916-form-actions {
+.ksign-ks1916-form-actions {
     display: flex;
     gap: 16px;
     justify-content: flex-end;
     margin-top: 32px;
 }
 
-.ksign-df1916-btn-primary {
+.ksign-ks1916-btn-primary {
     background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
     color: white;
     border: none;
@@ -727,12 +727,12 @@
     transition: all 0.2s ease;
 }
 
-.ksign-df1916-btn-primary:hover {
+.ksign-ks1916-btn-primary:hover {
     transform: translateY(-1px);
     box-shadow: 0 8px 20px rgba(30, 41, 59, 0.3);
 }
 
-.ksign-df1916-btn-secondary {
+.ksign-ks1916-btn-secondary {
     background: transparent;
     color: #64748b;
     border: 2px solid #e2e8f0;
@@ -744,79 +744,79 @@
     transition: all 0.2s ease;
 }
 
-.ksign-df1916-btn-secondary:hover {
+.ksign-ks1916-btn-secondary:hover {
     background: #f8fafc;
     border-color: #cbd5e1;
 }
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-    .ksign-df1916-hero-layout {
+    .ksign-ks1916-hero-layout {
         gap: 40px;
     }
 
-    .ksign-df1916-hero.product-hero {
+    .ksign-ks1916-hero.product-hero {
         border-radius: 0px 0px 50px 50px;
     }
 
-    .ksign-df1916-specs-grid {
+    .ksign-ks1916-specs-grid {
         grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 900px) {
-    .ksign-df1916-hero-stats {
+    .ksign-ks1916-hero-stats {
         gap: 25px;
         justify-content: center;
     }
 
-    .ksign-df1916-stat {
+    .ksign-ks1916-stat {
         padding: 18px 25px;
         min-width: 140px;
     }
 
-    .ksign-df1916-hero-title.product-title {
+    .ksign-ks1916-hero-title.product-title {
         font-size: 2.4rem;
     }
 }
 
 @media (max-width: 768px) {
-    .ksign-df1916-hero {
+    .ksign-ks1916-hero {
         border-radius: 0px 0px 40px 40px;
         padding: 60px 20px 40px;
     }
 
-    .ksign-df1916-hero.product-hero {
+    .ksign-ks1916-hero.product-hero {
         padding: 50px 20px;
         text-align: center;
     }
 
-    .ksign-df1916-hero-title.product-title {
+    .ksign-ks1916-hero-title.product-title {
         font-size: 2.2rem;
         text-align: center;
     }
 
-    .ksign-df1916-hero-subtitle.product-subtitle {
+    .ksign-ks1916-hero-subtitle.product-subtitle {
         text-align: center;
         max-width: 100%;
         font-size: 1rem;
         margin-bottom: 25px;
     }
 
-    .ksign-df1916-button-group {
+    .ksign-ks1916-button-group {
         justify-content: center;
         gap: 15px;
         margin-bottom: 25px;
     }
 
-    .ksign-df1916-hero-image {
+    .ksign-ks1916-hero-image {
         max-width: 350px;
         width: 90%;
         height: auto;
         margin: 0 auto;
     }
 
-    .ksign-df1916-hero-stats {
+    .ksign-ks1916-hero-stats {
         justify-content: center;
         gap: 15px;
         margin-top: 30px;
@@ -827,60 +827,60 @@
         margin-right: auto;
     }
 
-    .ksign-df1916-stat {
+    .ksign-ks1916-stat {
         padding: 16px 20px;
         margin: 0;
         width: 100%;
         box-sizing: border-box;
     }
 
-    .ksign-df1916-stat-number {
+    .ksign-ks1916-stat-number {
         font-size: 1.5rem;
     }
 
-    .ksign-df1916-stat-label {
+    .ksign-ks1916-stat-label {
         font-size: 0.8rem;
     }
 
-    .ksign-df1916-form-row {
+    .ksign-ks1916-form-row {
         flex-direction: column;
         gap: 0;
     }
 
-    .ksign-df1916-form-actions {
+    .ksign-ks1916-form-actions {
         flex-direction: column;
     }
 
-    .ksign-df1916-applications-list {
+    .ksign-ks1916-applications-list {
         grid-template-columns: 1fr;
     }
 
-    .ksign-df1916-advantages-grid {
+    .ksign-ks1916-advantages-grid {
         grid-template-columns: 1fr;
     }
 
     /* Mobile Specifications Table Styles */
-    .ksign-df1916-spec-card {
+    .ksign-ks1916-spec-card {
         padding: 16px;
     }
 
-    .ksign-df1916-spec-card-title {
+    .ksign-ks1916-spec-card-title {
         font-size: 1.3rem;
         margin-bottom: 16px;
     }
 
-    .ksign-df1916-spec-item {
+    .ksign-ks1916-spec-item {
         grid-template-columns: 1fr;
         gap: 4px;
         padding: 10px 12px;
     }
 
-    .ksign-df1916-spec-label {
+    .ksign-ks1916-spec-label {
         font-size: 0.85rem;
         margin-bottom: 2px;
     }
 
-    .ksign-df1916-spec-value {
+    .ksign-ks1916-spec-value {
         font-size: 0.8rem;
         text-align: left;
         justify-content: flex-start;

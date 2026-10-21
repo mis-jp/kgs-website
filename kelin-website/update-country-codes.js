@@ -163,7 +163,7 @@ const FILES_TO_UPDATE = [
     'hanniu-k1390-co2-laser-150w-ccd',
     'hanniu-k1390-co2-laser-300w',
     'k-sign-desktop-laser-b330',
-    'k-sign-df-1916-laser-fabric-cutting',
+    'k-sign-ks-1916-laser-fabric-cutting',
     'k-sign-desktop-laser-marking',
     'reci-handheld-fiber-laser-welding',
     'yueming-fiber-laser-hl1530c-g-e',
