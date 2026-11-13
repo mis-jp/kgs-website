@@ -130,7 +130,7 @@ export default function PromotionalDisplayPage() {
           desc: 'Economical and lightweight tarpaulin solutions.',
           specs: 'Grades: X2 (220gsm), A2 (260gsm), 300gsm. Sizes: 3.3ft to 10.5ft x 164ft/246ft.',
           features: ['Lightweight', 'Economical', 'Short-term outdoor'],
-          images: [{ src: '/assets/Materials/TARPAULIN/ALPHA.webp', label: 'Beta Tarpaulin' }]
+          images: [{ src: '/dummy-image-square.jpg', label: 'Beta Tarpaulin' }]
         },
         {
           name: 'Omega Black-Out Tarpaulin',

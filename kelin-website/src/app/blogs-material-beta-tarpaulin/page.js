@@ -10,7 +10,7 @@ export const metadata = {
     openGraph: {
         title: "Beta Tarpaulin Guide: Economy Frontlit Tarpaulin for Everyday Outdoor Banners & Event Signage",
         description: "Complete guide to Beta Tarpaulin — economy 320gsm frontlit tarpaulin for everyday outdoor banners and short-term advertising campaigns.",
-        images: [{ url: '/assets/Materials/ALPHA.webp', width: 1200, height: 630, alt: 'Beta Tarpaulin rolls for economy outdoor advertising banners' }],
+        images: [{ url: '/dummy-image-square.jpg', width: 1200, height: 630, alt: 'Beta Tarpaulin rolls for economy outdoor advertising banners' }],
         type: 'article'
     },
     alternates: { canonical: 'https://www.kelingraphics.com/blogs-material-beta-tarpaulin' }
@@ -24,7 +24,7 @@ export default function BlogBetaTarpaulin() {
                 "@type": "Article",
                 "headline": "Beta Tarpaulin Guide: Economy Frontlit Tarpaulin for Everyday Outdoor Banners & Event Signage",
                 "description": "Complete guide to Beta Tarpaulin — economy 320gsm frontlit tarpaulin for everyday outdoor banners, promotional events, and short-term advertising campaigns in the Philippines.",
-                "image": "https://www.kelingraphics.com/assets/Materials/ALPHA.webp",
+                "image": "https://www.kelingraphics.com/dummy-image-square.jpg",
                 "author": { "@type": "Organization", "name": "Kelin Graphics System", "url": "https://www.kelingraphics.com/about" },
                 "publisher": { "@type": "Organization", "name": "Kelin Graphics System", "logo": { "@type": "ImageObject", "url": "https://www.kelingraphics.com/marquee-logo/inks/kelin-logo.png" } },
                 "datePublished": "2026-04-01T08:00:00.000Z",
@@ -90,7 +90,7 @@ export default function BlogBetaTarpaulin() {
                             </div>
                         </header>
                         <figure className="blog-featured-image" itemProp="image">
-                            <img src="/assets/Materials/ALPHA.webp" alt="Beta Tarpaulin rolls for economy outdoor advertising banners" width="840" height="473" loading="eager" />
+                            <img src="/dummy-image-square.jpg" alt="Beta Tarpaulin rolls for economy outdoor advertising banners" width="840" height="473" loading="eager" />
                             <figcaption>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg>
                                 Beta Tarpaulin — 320gsm economy frontlit tarpaulin for short-term outdoor advertising banners and promotional event signage
@@ -269,7 +269,7 @@ export default function BlogBetaTarpaulin() {
                             </ol>
                         </div>
                         <div className="sidebar-widget product-widget">
-                            <img src="/assets/Materials/ALPHA.webp" alt="Beta Tarpaulin rolls" className="product-widget-img" />
+                            <img src="/dummy-image-square.jpg" alt="Beta Tarpaulin rolls" className="product-widget-img" />
                             <h4>Beta Tarpaulin</h4>
                             <p>Economy 320gsm frontlit PVC tarpaulin for short-term outdoor banners. Available 3.2ft–10ft widths, 164ft rolls. Eco-solvent and UV compatible.</p>
                             <Link href="/materials" className="product-widget-btn">See Full Details <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg></Link>
